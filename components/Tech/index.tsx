@@ -13,13 +13,11 @@ const Tech = () => {
   return (
     <>
       <div className="tech">
-        <h1 className="tech__title">Technologies</h1>
-        <p className="tech__desc">
+        <h1 className="section-title">Technologies</h1>
+        <p className="section-desc">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae ad
           autem suscipit delectus voluptas sed excepturi soluta laboriosam
-          officia! Veritatis! Amet consectetur adipisicing elit. Quae eaque,
-          totam inventore beatae officiis in. Excepturi laudantium veritatis
-          recusandae perferendis.
+          officia! Veritatis! Amet consectetur adipisicing elit.
         </p>
         <div className="tech__tools">
           <ul className="tech__list list">
@@ -79,29 +77,12 @@ const Tech = () => {
             </li>
           </ul>
         </div>
-
-        <div className="bosluk">&nbsp;</div>
       </div>
 
       <style jsx>{`
         @import "../../styles/variables.scss";
 
-        .bosluk {
-          margin-bottom: 30rem;
-        }
         .tech {
-          &__title {
-            font-size: 4rem;
-            margin-bottom: 0.8rem;
-            text-decoration: underline $color-blue;
-          }
-
-          &__desc {
-            font-size: 1.7rem;
-            max-width: 80%;
-            line-height: 1.4;
-          }
-
           &__tools {
             margin-top: 2rem;
           }

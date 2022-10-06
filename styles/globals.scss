@@ -33,3 +33,19 @@ body {
 .blue-text {
   color: $color-blue;
 }
+
+.section-title {
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+  text-decoration: underline $color-blue;
+}
+
+.section-desc {
+  font-size: 1.7rem;
+  max-width: 80%;
+  line-height: 1.4;
+}
+
+.section-margin-top {
+  margin-top: 10rem;
+}
